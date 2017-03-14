@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Homework-landingpagehome.iml" filepath="$PROJECT_DIR$/.idea/Homework-landingpagehome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../homework-relaxrblog/.idea/homework-relaxrblog.iml" filepath="$PROJECT_DIR$/../../homework-relaxrblog/.idea/homework-relaxrblog.iml" />
+    </modules>
+  </component>
+</project>

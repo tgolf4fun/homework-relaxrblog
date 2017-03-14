@@ -4,12 +4,11 @@ Client: Your Client
 Author: Your Name
 Developer @GA in NYC
 */
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600i,800');
 
 /******************************************
 /* SETUP
 /*******************************************/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600i,800');
 
 /* Box Model Hack */
 * {
@@ -48,9 +47,13 @@ Developer @GA in NYC
 
 body {
      color: #000;
+     border-left-style: solid;
+     border-right-style: solid;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+     background-size: cover;
+     font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -60,154 +63,106 @@ body {
 
 /* Center the container */
 #container {
-  width: 960px;
-  margin: auto;
+  width: 100%;
   padding: 30px;
   text-align: center;
   font-size: 24px;
 }
 
-header {
-    height: 100px;
-    background-color: #033048;
-    width: 100%;
+header{
+    color: white;
 }
 
 footer {
-    background-color: black;
-
+   background: #121212;
+   height: 200px;
+   color: white;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
-main {
-    width: 700px;
-    }
-
-/*links in aside*/
-li a {
-    text-decoration: none;
-    }
-
-/*links in header*/
-header a {
-    text-decoration: none;
-    color: #f9e42e;
-    }
-
-a:hover {
-    background: yellow;
-    border-radius: 5px;
-    }
-
-nav  {
+/*benefits of Relaxr section*/
+.bene {
+    font-size: 20px;
     font-weight: Semibold;
-    font-size: 24px;
-    float: right;
-    padding: 20px;
-    }
-
-li {
-    display: inline;
-    padding: 5px 8px;
-    /*background-color: #f0efef;*/
-    }
-
-section {
-    float: left;
-    width: 700px;
-    background-color: #f0efef;
-    }
-
-aside {
-    float: left;
     background: #f0efef;
-    width: 200px;
-    height: 100%;
-    padding: 0px 15px 25px 0px;
+    height: 300px;
+    padding: 50px 0px 0px 300px;
+    color: #606161;
+}
+
+a {
+    background: #f9e42e;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: #033048;
+    text-size: 14px;
+    font-weight: Extrabold;
+}
+
+.testimonial {
+    height: 200px;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
     }
 
 .cta {
     background: #f9e42e;
     height: 100px;
     text-align: center;
-    padding: 30px 50px;
+    padding: 50px 0px 50px 0px;
     }
-
- .sun {
+blockquote {
+    margin: 0 auto;
+    width: 50%;
+    padding: 50px 0px 0px 0px;
+    font-style: italic;
+    font-weight: Semibold;
+    font-size: 18px;
+}
+.sun {
     background: #033048;
     color: white;
     font-weight: Extrabold;
     font-size: 12px;
     border-radius: 5px;
-    padding: 20px 32px;
-    text-decoration: none;
     }
-
+h1 {
+    text-align: center;
+    }
 .ft {
     text-align: center;
     padding: 50px 0px 0px 0px;
     text-weight: Extrabold;
     font-size: 24px;
     }
-
 .ftl{
-    color: white;
-    font-size: 24px;
+    color: #f9e42e;
+    padding: 0px 0px 0px 0px;
+    font-size: 9px;
     font-weight: Semibold;
     }
-
-.lilft{
-    color: white;
+img {
+    padding: 20px;
     }
-
-.title {
+.top {
+    padding: 0px 1000px 100px 100px;
+    font-size: 24px;
     font-weight: Extrabold;
-    font-size: 24px;
-    }
-
-.addimg{
-    margin: 0px 0px 0px 0px;
-    height: 1025px;
-    width: 195px;
-    float: left;
-    padding: 20px;
-    }
-
-.cont-logo {
-    float: left;
-    color: white;
-    font-size: 36px;
-    padding: 20px;
-    }
-
-p::first-letter {
-    font-size: 300%;
-    color: #8A2BE2;
-    float: left;
-    line-height: 60px;
-    padding-top: 4px;
-    padding-right: 8px;
-    padding-left: 3px;
-}
-span {
-    padding: 20px 0px 0px 0px;
-    font-weight: Semibold;
-    font-size: 40px;
-    }
-.rm {
-    font-size: 24px;
-    font-weight: Semibold;
-    padding: 30px;
-    }
-.sd {
-    font-size: 32px;
-    font-weight: Extrabold;
-    padding: 20px;
+    margin: 0 auto;
     }
 h3 {
-    font-weight: bold;
-    padding: 10px;
+    font-size: 24px;
+    font-weight: Semibold;
+    margin: 0 auto;
+    padding: 0px 0px 50px 0px;
+}
+.light{
+    font-weight: Light;
+    font-size: 13px;
     }
